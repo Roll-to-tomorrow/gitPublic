@@ -15,7 +15,7 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
 
 安装后如下图
 
-![fig1](https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig1.png)   
+![fig1](https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig1.png)   
  
 - step 2. 填写需要的参数   
   首先打开Xftp，选择修建会话：
@@ -24,7 +24,7 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
   - 端口号填写老师给的FTP端口号 
   - 填写用户名和密码  
   
-<img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig2.png' width='380' height='220'/>
+<img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig2.png' width='380' height='220'/>
 
 - step 3. 上传数据、代码到FTP  
 - step 4. 打开Xshell，并新建会话
@@ -33,7 +33,7 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
   - 端口号填写老师给的SSH对应的端口
   - 选择用户身份验证填写用户名和密码  
   
-<img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig3.jpg' width='380' height='220'/>
+<img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig3.jpg' width='380' height='220'/>
 
 - step 5. 用命令行操作远程服务器
   - 比如要运行python代码，首先进入代码所在文件夹，然后以python命令行运行python文件
@@ -43,12 +43,12 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
 通过pycharm配置python远程解释器
 - step 1. 打开pycharm --> Tools --> Development -->Configuration 
  
-<img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig4.png' width='380' height='220'/>
+<img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig4.png' width='380' height='220'/>
 
 - step 2. 配置参数
    - 首先新建一个Server，name随便填，Type选择SFTP
    
-   <img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig5.png' width='380' height='220'/>
+   <img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig5.png' width='380' height='220'/>
 
    - 配置Connection
        - 1号框填写远程服务器IP地址
@@ -56,13 +56,13 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
        - 3号框自动匹配远程服务器操作文件夹，也可以自己填，建议Autodetect
        - 4、5号框填写用户名和密码
        
-       <img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig6.png' width='380' height='220'/>
+       <img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig6.png' width='380' height='220'/>
 
    - 配置Mappings
      - 1号框表示本地文件夹，就是本地保存代码的文件夹
      - 2号框表示远程服务器的操作文件夹
      
-     <img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig7.png' width='380' height='220'/>
+     <img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig7.png' width='380' height='220'/>
 
 - step 3. 配置完成后便开始操作本地代码在远程服务器运行
     - 调用远程解释器 File --> Setting --> Project: --> Project Interpreter
@@ -70,7 +70,7 @@ IDE操作相对于桌面操作的优势在于可以随时修改代码，可以�
     - 在Configure Remote Pyter Interpreter框中选择Development configuration
     - 下面框中选择刚才配置好的服务器配置，点击确定
     
-    <img src='https://github.com/Roll-to-tomorrow/gitDemos/raw/master/RemoteServer/fig8.png' width='380' height='220'/>
+    <img src='https://github.com/Roll-to-tomorrow/gitPublic/raw/master/RemoteServer/fig8.png' width='380' height='220'/>
 
 - step 4. 本地查看远程服务器中的文件
     - Tools --> Development --> Browse Remote Host
